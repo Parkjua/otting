@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OTTING</title>
+  <link rel="icon" href="./img/UOETYnAP.ico" sizes="32x32" />
+  <link rel="apple-touch-icon" href="./img/UOETYnAP.ico" sizes="180x180" />
+
+  <link rel="stylesheet" type="text/css" href="./css/common.css" />
+  <link rel="stylesheet" type="text/css" href="./css/header.css" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@800&family=IBM+Plex+Sans+KR&family=Nanum+Myeongjo:wght@800&family=Noto+Sans+KR:wght@700&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Dancing+Script:wght@700&family=Grape+Nuts&family=Noto+Sans+KR&family=Prompt:wght@600&display=swap");
+  </style>
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/fade.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // console.log("ok");
+      window.onscroll = function () {
+        console.log(document.querySelector("html").scrollTop);
+        if (document.querySelector("html").scrollTop > 100) {
+          document.querySelector("header").style.top = "-80px";
+        } else {
+          document.querySelector("header").style.top = "0px";
+        }
+      }
+      window.onmousemove = function (e) {
+        if (e.clientY < 60) {
+          document.querySelector("header").style.top = "0px";
+        } else {
+          document.querySelector("header").style.top = "-80px";
+        }
+      }
+    });
+  </script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <nav>
+      <a href="index.html"><img id="logo" src="./img/logo.png" /></a>
+      <ul id="main_menu">
+        <li>
+          <a href="#section3">Planning </a>
+        </li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- main -->
+
+  <section id="main" class="inner">
+    <div>
+      <div id="main_tilte">
+        <h1>WELCOME !<br />OTTING PLATFORM</h1>
+        <p>
+          OTTING은 맞춤형 영화 추천 서비스 프로젝트로,<br />기획부터
+          디자인까지 3인이 기획한 프로젝트입니다.
+        </p>
+        <ul>
+          <li id="google_store"><a href="google.html">Google Play</a></li>
+          <li id="app_store"><a href="app.html">App Store</a></li>
+        </ul>
+      </div>
+      <img id="main_img" src="./img/main.png" />
+    </div>
+  </section>
+  <div class="clear"></div>
+
+  <!-- section3 -->
+  <section id="section3" class="inner">
+    <img id="speech1" src="./img/speech.png" />
+    <img id="speech2" src="./img/speech2.png" />
+    <img id="speech3" src="./img/speech3.png" />
+  </section>
+
+  <div class="clear"></div>
+
+  <section id="project_goal" class="inner">
+    <div id="goal_title">
+      <h2>PROJECT GOAL</h2>
+      <p>
+        OTTING은 팬데믹 이후 OTT 시장이 크게 성장함에 따라, 다양한 OTT
+        플랫폼과 영화의 등장으로<br />
+        선택에 어려움을 느끼는 사용자들의 고민을 해소하기 위한 서비스를
+        제공하고자 합니다.
+      </p>
+    </div>
+
+    <div id="length_line"></div>
+
+    <div id="keyword_title">
+      <h2>PROJECT KEYWORD</h2>
+      <img class="keyword_img" src="./img/keyword.png" />
+      <p>
+        OTTING은 세 가지 키워드를 바탕으로 각 사용자의 취향에 맞는 영화
+        추천을 통해<br />
+        사용자의 편의와 흥미를 이끌어내고자 합니다.
+      </p>
+    </div>
+  </section>
+
+  <!-- section2 서비스-->
+  <section id="section2">
+    <div class="inner">
+      <img id="project_img" src="./img/service.png" />
+      <div id="project_produce">
+        <h2 id="title1">
+          당신만을<br />
+          위한<br /><span class="c_p">추천 서비스</span>
+        </h2>
+        <div class="h2_line"></div>
+        <p>
+          OTTING은 각 사용자의 개인 데이터를 바탕으로 맞춤 추천 서비스를
+          제공하여 OTT 서비스의 이용을 도울 수 있도록 하는
+          서비스입니다.
+          또한 영화에 대한 사용자의 흥미를 유발할 수 있는
+          여러 서비스를 제공합니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <!-- section4 design -->
+  <section id="design" class="inner">
+    <div id="color">
+      <img class="color1" src="./img/color1.png" />
+
+      <img class="color2" src="./img/color2.png" />
+
+      <img class="color3" src="./img/color3.png" />
+
+      <div id="color_title">
+        <h2>COSMOS<br />PARTY</h2>
+        <div class="h2_line"></div>
+        <p>
+          급증한 OTT 사용자인 MZ세대를 주 타겟으로 선정해 흥미를
+          이끌어내고자 ‘다양한 취향과 스펙트럼을 담을 수 있는 우주’
+          라는 UI 컨셉을 선정하였습니다.이를 바 탕으로 채도가 높고
+          통통 튀는 색과 글래스 모피즘을 통 한 디자인을 진행하였습니다.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <section class="inner" id="font_system">
+    <div id="font" class="inner">
+      <h2>Font System</h2>
+      <img id="font_img" src="./img/font.png" />
+    </div>
+  </section>
+
+  <div class="clear"> </div>
+
+  <section id="section4_logo">
+    <div class="inner">
+      <div class="design_title">
+        <h2>LOGO & <br />LAUNCHER ICON</h2>
+      </div>
+      <img class="logo_laun" src="./img/logo_launcher.png" />
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <section id="icongra" class="inner">
+    <div id="icon_main">
+      <h2>ICONGRAPHY</h2>
+      <div class="h2_line3"></div>
+      <p>
+        UI 디자인에 사용된 아이콘입니다.
+      </p>
+      <div class="icon_gra">
+        <img id="icon_col" src="./img/icon_black.png" />
+        <img id="icon_bg" src="./img/icon_bg.png" />
+      </div>
+    </div>
+    <script src="js/img.js"></script>
+    <div class=" icon_img">
+      <ul class="icon_p">
+        <li>
+          <img src="./img/logo1.png" />
+        </li>
+        <li>
+          <img src="./img/logo2.png" />
+        </li>
+        <li>
+          <img src="./img/logo11.png" />
+        </li>
+        <li>
+          <img src="./img/logo12.png" />
+        </li>
+      </ul>
+      <ul class="icon_w">
+        <li>
+          <img src="./img/logo3.png" />
+        </li>
+        <li>
+          <img src="./img/logo4.png" />
+        </li>
+        <li>
+          <img src="./img/logo5.png" />
+        </li>
+        <li>
+          <img src="./img/logo6.png" />
+        </li>
+        <li>
+          <img src="./img/logo7.png" />
+        </li>
+        <li>
+          <img src="./img/logo8.png" />
+        </li>
+        <li>
+          <img src="./img/logo9.png" />
+        </li>
+      </ul>
+      <ul class="icon_w">
+        <li>
+          <img src="./img/logo10.png" />
+        </li>
+        <li>
+          <img src="./img/logo13.png" />
+        </li>
+        <li>
+          <img src="./img/logo14.png" />
+        </li>
+        <li>
+          <img src="./img/logo15.png" />
+        </li>
+        <li>
+          <img src="./img/logo16.png" />
+        </li>
+        <li>
+          <img src="./img/logo17.png" />
+        </li>
+        <li>
+          <img src="./img/logo18.png" />
+        </li>
+        <li>
+          <img src="./img/logo19.png" />
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <!-- 서비스 -->
+  <section id="service" class="inner">
+    <div class="ser_main_title">
+      <h2 id="title2">
+        <span class="c_p">기분</span>과<span class="c_p"> 날씨</span>는<br />매일매일<br />달라지니까
+      </h2>
+      <div class="h2_line3"></div>
+      <dl>
+        <dt>KEY<br />SERVICE</dt>
+        <dd>
+          OTTING은 사용자의 기분과 날씨에 맞춘 영화 추천 서비스를
+          제공합니다.
+          영화 선택에 영향을 줄 수 있는 데이터를 통해 한층 더 맞춤
+          서비스가 될 수 있도록 하였습니다.
+        </dd>
+      </dl>
+    </div>
+    <div id="ImgSet">
+      <div id="picSet">
+        <img id="pic0" src="./img/card1.png" />
+        <img id="pic1" src="./img/card2.png" />
+        <img id="pic2" src="./img/card3.png" />
+        <img id="pic3" src="./img/card4.png" />
+        <img id="pic4" src="./img/card5.png" />
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/card.js"></script>
+
+  <div class="clear"></div>
+
+  <section id="service2" class="inner">
+    <img src="./img/still_img.png" />
+    <div class="ser2_title">
+      <h2 id="title3">
+        좋아하는 장면,<br />대사를<br /><span class="c_p">기억할 수 있게</span>
+      </h2>
+      <div class="h2_line3"></div>
+      <dl>
+        <dt>KEY<br />SERVICE</dt>
+        <dd>
+          영화의 명대사를 기억하고 싶으신가요?
+          OTTING은 영화의 명장면, 명대사를 기록하여
+          이미지 파일로 저장할 수 있도록
+          스틸컷 서비스를 제공합니다.
+        </dd>
+      </dl>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <section id="service3" class="inner">
+    <img src="./img/callender.png" />
+    <div class="ser3_title">
+      <dl>
+        <dt>KEY<br />SERVICE</dt>
+        <dd>
+          자체 캘린더 및 다이어리 서비스를 <br />제공하여 영화를 관람했던
+          경험을<br />
+          쉽고 빠르게 기록할 수 있도록 <br />하였습니다.
+        </dd>
+      </dl>
+      <div class="clear"></div>
+      <div class="h2_line3"></div>
+      <h2 id="title4">
+        <span class="c_p">잊지않고<br />빠르게<br /></span>꺼내볼 수 있게
+      </h2>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <section id="service4" class="inner">
+    <img src="./img/challenge1.gif" />
+    <div class="ser4_title">
+      <h2 id="title5">
+        쌓은 기록으로<br /><span class="c_p">새로운<br />경험까지</span>
+      </h2>
+      <div class="h2_line3"></div>
+      <dl>
+        <dt>KEY<br />SERVICE</dt>
+        <dd>
+          출석체크 등 서비스 이용에 따른 보상을
+          마일리지로 제공하여,
+          적 립된 마일리지를 OTT 서비스에
+          이용할 수 있도록 합니다.
+        </dd>
+      </dl>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <section id="movie" class="inner">
+    <iframe width="1200" height="755" src="https://www.youtube.com/embed/v0MwtNXBZJo" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </section>
+
+  <section id="mockup">
+    <div class="inner">
+      <img src="./img/last.png" />
+    </div>
+    <img src="./img/4.png" class="mockup_bg">
+  </section>
+
+  <div class="clear"></div>
+
+  <footer id="footer">
+    <div id="team">
+      <div class="inner">
+        <img src="./img/contact.png" />
+        <div class="profile">
+          <ul>
+            <li class="name">김지현</li>
+            <li class="major">Designer</li>
+            <li>Tel.010-8984-2937</li>
+            <li>poiuhjkl0613!@naver.com</li>
+          </ul>
+          <ul>
+            <li class="name">정지윤</li>
+            <li class="major">Designer</li>
+            <li>Tel.010-3340-2065</li>
+            <li>sinuzin@gmail.com</li>
+          </ul>
+          <ul>
+            <li class="name">박주아</li>
+            <li class="major">Programmer</li>
+            <li>Tel.010-6259-3309</li>
+            <li>wndk3309@gmail.com</li>
+          </ul>
+
+        </div>
+      </div>
+  </footer>
+
+  <aside id="scrollTop">⌃</aside>
+  <script src="./js/scroll.js"></script>
+</body>
+
+</html>

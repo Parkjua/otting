@@ -1,0 +1,509 @@
+/* 메인 */
+section#main {
+  background-repeat: no-repeat;
+  position: relative;
+  height: 980px;
+}
+section #main_img {
+  position: absolute;
+  top: 107px;
+  right: 0;
+}
+section #main_tilte {
+  position: absolute;
+  top: 289px;
+  color: #fff;
+}
+section #main_tilte h1 {
+  font-weight: bold;
+  font-size: 49px;
+}
+section #main_tilte ul {
+  margin-top: 50px;
+}
+#google_store {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 60px;
+  background-image: url(../img/google_btn.png);
+}
+#google_store a {
+  position: absolute;
+  top: 18px;
+  left: 86px;
+  font-size: 16px;
+}
+#app_store {
+  float: left;
+  position: relative;
+  margin-left: 23px;
+  width: 200px;
+  height: 60px;
+  background-image: url(../img/apple_btn.png);
+}
+#app_store a {
+  position: absolute;
+  top: 18px;
+  left: 86px;
+  font-size: 16px;
+}
+
+/* section3 말풍선 */
+#section3 {
+  position: relative;
+  height: 440px;
+}
+#speech1 {
+  position: absolute;
+  top: 70px;
+  left: 75px;
+  transition: all 1s;
+  opacity: 0;
+}
+#speech1.active {
+  top: 0;
+  opacity: 1;
+}
+
+#speech2 {
+  position: absolute;
+  top: 290px;
+  right: 75px;
+  transition: all 2s;
+  opacity: 0;
+}
+#speech2.active {
+  top: 145px;
+  opacity: 1;
+}
+
+#speech3 {
+  position: absolute;
+  top: 580px;
+  left: 75px;
+  transition: all 2.5s;
+  opacity: 0;
+}
+#speech3.active {
+  top: 290px;
+  opacity: 1;
+}
+#goal_title {
+  text-align: center;
+  margin: 80px 0 75px 0;
+}
+
+#length_line {
+  margin: 0 auto;
+  width: 20px;
+  height: 200px;
+  border-right: solid 2px #fff;
+  position: relative;
+  top: 0;
+  transition: all 2s;
+  opacity: 0;
+}
+
+#length_line.active {
+  position: relative;
+  opacity: 1;
+}
+
+#keyword_title {
+  margin-bottom: 180px;
+  text-align: center;
+}
+#keyword_title h2 {
+  margin: 90px 0 85px 0;
+}
+
+/* section2 */
+#section2 {
+  position: relative;
+  background-image: url(../img/1.png);
+}
+#section2 img {
+  margin: 120px 0;
+}
+#project_produce {
+  float: right;
+  margin: 120px 0;
+  width: 368px;
+}
+#title1 {
+  position: relative;
+  top: 30px;
+  transition: all 2s;
+  opacity: 0;
+}
+#title1.active {
+  position: relative;
+  top: 0;
+  opacity: 1;
+}
+#project_produce h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+  font-style: normal;
+}
+
+/* section4 logo */
+#section4_logo {
+  position: relative;
+  height: 980px;
+}
+.logo1 {
+  position: absolute;
+  left: 80px;
+  bottom: 0;
+}
+.logo2 {
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+
+/* section4 design color*/
+#design {
+  position: relative;
+  height: 980px;
+  /* border: solid 1px red; */
+}
+#color {
+  margin: 72px 0 0 80px;
+}
+.color1 {
+  position: absolute;
+  top: 238px;
+  left: 15px;
+}
+.color2 {
+  position: absolute;
+  bottom: 210px;
+  left: 0px;
+}
+.color3 {
+  position: absolute;
+  bottom: 333px;
+  left: 265px;
+}
+#color_title {
+  float: right;
+  margin: 262px 0 0 0;
+  width: 421px;
+}
+#color_title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+}
+/* 폰트 */
+#font_system {
+  height: 980px;
+}
+#font h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+  margin: 146px 0 83px 0px;
+}
+
+/* logo&layncher*/
+#section4_logo {
+  position: relative;
+  background-image: url(../img/2.png);
+  height: 700px;
+}
+.design_title {
+  margin-top: 270px;
+  float: left;
+}
+.design_title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+}
+.logo_laun {
+  float: right;
+  margin-top: 140px;
+}
+
+/* icongraphy */
+#icongra {
+  height: 980px;
+  position: relative;
+  margin-top: 234px;
+}
+#icongra h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+}
+#icon_main {
+  text-align: center;
+  margin: 21px 0 30px 0;
+}
+#icon_main .h2_line3 {
+  margin: 20px auto;
+}
+#icon_main p {
+  margin: 20px 0;
+}
+.icon_gra {
+  position: relative;
+  text-align: center;
+  margin-top: 120px;
+}
+#icon_col {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+#icon_bg {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 770px;
+  height: 770px;
+  z-index: -10;
+}
+.icon_img {
+  position: absolute;
+  width: 100%;
+  margin: 140px 0;
+  top: 560px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.icon_img ul {
+  text-align: center;
+  margin: 20px 0;
+}
+.icon_p li {
+  margin: 0 10px;
+}
+.icon_w li {
+  margin: 0 22px;
+}
+.icon_img li {
+  display: inline;
+}
+
+/* 서비스 */
+#service {
+  position: relative;
+  height: 980px;
+  margin-top: 234px;
+}
+.ser_main_title {
+  /* width: 465px; */
+  float: left;
+  margin: 90px 0 20px 0px;
+  position: relative;
+  top: 195px;
+}
+.ser_main_title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+  font-style: normal;
+}
+#title2,
+#title3,
+#title5 {
+  position: relative;
+  top: 30px;
+  transition: all 2s;
+  opacity: 0;
+}
+#title2.active,
+#title3.active,
+#title5.active {
+  position: relative;
+  top: 0;
+  opacity: 1;
+}
+#title4 {
+  position: relative;
+  bottom: 30px;
+  transition: all 2s;
+  opacity: 0;
+}
+#title4.active {
+  position: relative;
+  bottom: 0;
+  opacity: 1;
+}
+/* card */
+#ImgSet {
+  position: relative;
+  width: 338px;
+  height: 607px;
+  top: 195px;
+  left: -100px;
+  float: right;
+}
+#picSet {
+  width: 338px;
+  height: 607px;
+  position: relative;
+  overflow: hidden;
+}
+#picSet img {
+  position: absolute;
+  top: 0;
+  transition: left 1s;
+}
+#ImgSet button {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  width: 80px;
+  height: 80px;
+  background: none;
+  color: #ccc;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+#ImgSet #prev_btn {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 30px;
+  left: -100px;
+}
+#ImgSet #next_btn {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 30px;
+  right: -100px;
+}
+#dotList {
+  margin: 18px 0 0 70px;
+}
+#dotList li {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 10px;
+}
+#dotList li:hover {
+  background: rgba(255, 0, 61, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+#dotList li.active {
+  background: rgba(255, 0, 61, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+#dotList li.active {
+  background: rgba(255, 0, 61, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+/* 서비스 2 */
+#service2 {
+  position: relative;
+  height: 880px;
+}
+#service2 img {
+  margin: 120px 30px 120px 0;
+}
+.ser2_title {
+  float: right;
+  margin-top: 200px;
+}
+.ser2_title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+  font-style: normal;
+}
+/* 서비스 3 */
+#service3 {
+  position: relative;
+  height: 880px;
+}
+#service3 img {
+  position: absolute;
+  right: 0;
+  margin: 120px 0 120px 30px;
+}
+.ser3_title {
+  float: left;
+  margin-top: 200px;
+}
+.ser3_title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+  font-style: normal;
+}
+/* 서비스 4 */
+#service4 {
+  position: relative;
+}
+#service4 img {
+  margin: 120px 30px 120px 0;
+}
+.ser4_title {
+  float: right;
+  margin-top: 148px;
+  width: 500px;
+}
+.ser4_title h2 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 130%;
+  font-style: normal;
+}
+/* 영상 */
+section#movie {
+  margin-top: 90px;
+  position: relative;
+}
+#movie iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+section#mockup {
+  position: relative;
+}
+section#mockup img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 290px;
+}
+section#mockup .mockup_bg {
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1050px;
+  z-index: -10;
+}
